@@ -5,8 +5,60 @@
 child theme of WordPress' Twenty Fifteen theme
  Template:     twentyfifteen
 */
-body {
-  background-color: orange;
+@import url("https://fonts.googleapis.com/css?family=Volkhov|Zilla+Slab+Highlight&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Catamaran&display=swap");
+* {
+  color: #064052;
+}
+
+.custom-html-widget a:hover, .main-navigation li a:hover, .site-title a:hover {
+  color: #064052;
+}
+
+.sidebar {
+  background-color: white;
+}
+
+.site-title a {
+  color: #a8702f;
+}
+.main-navigation li a {
+  font-family: "Catamaran", sans-serif;
+  color: #a8702f;
+}
+.social-navigation a {
+  font-family: "Catamaran", sans-serif;
+  color: #a8702f;
+}
+
+.custom-html-widget a {
+  font-family: "Volkhov", serif;
+  color: #a8702f;
+}
+.widget_custom_html {
+  margin-bottom: 20px;
+}
+
+.site-footer .imprint {
+  display: none;
+}
+
+.entry-title {
+  font-family: "Catamaran", sans-serif;
+  font-size: 30px;
+}
+
+.entry-content h2 {
+  font-family: "Volkhov", serif;
+  font-size: 20px;
+}
+.entry-content p {
+  font-family: "Catamaran", sans-serif;
+  font-size: 15px;
+}
+
+.wp-block-file__button.wp-block-file__button.wp-block-file__button {
+  background-color: #cac839;
 }
 
 /*# sourceMappingURL=style.css.map */

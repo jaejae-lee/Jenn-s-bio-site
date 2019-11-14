@@ -6,7 +6,14 @@ child theme of WordPress' Twenty Fifteen theme
  Template:     twentyfifteen
 */
  
-body {
-	background-color: orange;
-}
+
+@import 'variables.scss';
+@import 'base.scss';
+@import 'effect.scss';
+
+@import 'sidebar.scss';
+@import 'footer.scss';
+@import 'page-template.scss';
+@import 'buttons.scss';
+
 
