@@ -1,3 +1,11 @@
 .wp-block-file__button.wp-block-file__button.wp-block-file__button{
-    background-color: $yellow;
+    background-color: $black;
+
+    &:hover{
+        background-color: $color-3; 
+    }
+
+    &:visited{
+        background-color: $color-3; 
+    }
 }

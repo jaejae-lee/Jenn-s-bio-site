@@ -1,62 +1,59 @@
 
 .sidebar {
     background-color: $white;
+    a{
+        color: $color-1;
+    }
+    a:hover{
+        @extend %text-hover;
+    }
 }
 
 .site-title {
     a{
-        // font-family: $font-two;
-        color: $brown;
+        font-family: $font-one;
+        text-transform: uppercase;
     }
-
-    a:hover{
-        @extend %text-hover;
-    }
-
 }
-
-
 
 .main-navigation{
 
-        li{
-            a {
+    li{
+        a {
             font-family: $font-two;
-            color: $brown;
-            }
-            a:hover{
-            @extend %text-hover;
-            }
+            font-size: 15px;
+        }
     }
 }
-
-
-
 
 .social-navigation{
 
     a {
         font-family: $font-two;
-        color: $brown;
+        color:$color-1;
     }
-
 }
 
 .custom-html-widget {
-
     a {
         font-family: $font-one;
-        color: $brown;
+        color: $color-1;
     }
-    a:hover{
-        @extend %text-hover;
-    }
-
-
 }
 
 .widget_custom_html {
-    margin-bottom: 20px;
+    margin: 20px 0;
+
+    a{
+    border-bottom: none;
+    }
+    a:hover{
+    border-bottom: 1px solid $color-3;
+    }
 }
+
+
+
+
 
 

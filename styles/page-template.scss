@@ -1,18 +1,38 @@
 .entry-title{
-    font-family: $font-two;
-    font-size: 30px;
+    font-family: $font-one;
+    font-size: 20px;
+    color: $white;
+    background-color: $color-3;
+    display: inline-block;
+    padding: 7px;
 }
-
 
 .entry-content  {
 
     h2{
         font-family: $font-one;
         font-size: 20px;
+        margin: 25px 0;
     }
 
     p {
         font-family: $font-two;
         font-size: 15px;  
     }
+
+    ul{
+        margin-top: 10px;
+
+        li{
+        font-family: $font-one;
+        font-size: 15px;  
+        }
+    }
+
+    figure{
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
 }
+
+

@@ -7,58 +7,97 @@ child theme of WordPress' Twenty Fifteen theme
 */
 @import url("https://fonts.googleapis.com/css?family=Volkhov|Zilla+Slab+Highlight&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Catamaran&display=swap");
-* {
-  color: #064052;
-}
-
-.custom-html-widget a:hover, .main-navigation li a:hover, .site-title a:hover {
-  color: #064052;
+.sidebar a:hover {
+  color: #a27f3e;
 }
 
 .sidebar {
   background-color: white;
 }
-
-.site-title a {
-  color: #a8702f;
+.sidebar a {
+  color: #a23e61;
 }
+.site-title a {
+  font-family: "Volkhov", serif;
+  text-transform: uppercase;
+}
+
 .main-navigation li a {
   font-family: "Catamaran", sans-serif;
-  color: #a8702f;
+  font-size: 15px;
 }
+
 .social-navigation a {
   font-family: "Catamaran", sans-serif;
-  color: #a8702f;
+  color: #a23e61;
 }
 
 .custom-html-widget a {
   font-family: "Volkhov", serif;
-  color: #a8702f;
+  color: #a23e61;
 }
+
 .widget_custom_html {
-  margin-bottom: 20px;
+  margin: 20px 0;
+}
+.widget_custom_html a {
+  border-bottom: none;
+}
+.widget_custom_html a:hover {
+  border-bottom: 1px solid #a27f3e;
+}
+
+.site-header .site-branding {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-toggle {
+  color: #a23e61;
 }
 
 .site-footer .imprint {
-  display: none;
+  font-family: "Volkhov", serif;
 }
 
 .entry-title {
-  font-family: "Catamaran", sans-serif;
-  font-size: 30px;
+  font-family: "Volkhov", serif;
+  font-size: 20px;
+  color: white;
+  background-color: #a27f3e;
+  display: inline-block;
+  padding: 7px;
 }
 
 .entry-content h2 {
   font-family: "Volkhov", serif;
   font-size: 20px;
+  margin: 25px 0;
 }
 .entry-content p {
   font-family: "Catamaran", sans-serif;
   font-size: 15px;
 }
+.entry-content ul {
+  margin-top: 10px;
+}
+.entry-content ul li {
+  font-family: "Volkhov", serif;
+  font-size: 15px;
+}
+.entry-content figure {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
 
 .wp-block-file__button.wp-block-file__button.wp-block-file__button {
-  background-color: #cac839;
+  background-color: black;
+}
+.wp-block-file__button.wp-block-file__button.wp-block-file__button:hover {
+  background-color: #a27f3e;
+}
+.wp-block-file__button.wp-block-file__button.wp-block-file__button:visited {
+  background-color: #a27f3e;
 }
 
 /*# sourceMappingURL=style.css.map */
